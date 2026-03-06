@@ -1,0 +1,75 @@
+COMMERCIAL GENERAL LIABILITY POLICY
+Policy Number: CGL-2024-00142
+Insured: Acme Manufacturing Corp
+Effective Date: January 1, 2025
+Expiry Date: December 31, 2025
+
+SECTION I — COVERAGE SUMMARY
+This policy provides Commercial General Liability (CGL) coverage on an occurrence
+basis. Coverage applies to bodily injury and property damage arising out of the
+insured's business operations, products, and completed operations.
+
+Coverage A — Bodily Injury and Property Damage Liability
+  Each Occurrence Limit:        $1,000,000
+  General Aggregate Limit:      $2,000,000
+  Products-Completed Ops Limit: $2,000,000
+
+Coverage B — Personal and Advertising Injury
+  Each Person/Organization Limit: $1,000,000
+
+Coverage C — Medical Payments
+  Each Person Limit: $10,000
+
+Deductible: $5,000 per occurrence
+
+SECTION II — INSURED PREMISES
+The following premises are covered under this policy:
+  1. 100 Industrial Parkway, Springfield, IL 62701
+  2. 250 Commerce Drive, Warehouse B, Springfield, IL 62702
+
+SECTION III — EXCLUSIONS
+This policy does NOT cover:
+  a) Expected or intended injury: Bodily injury or property damage expected
+     or intended from the standpoint of the insured.
+  b) Contractual liability: Liability assumed under any contract or agreement,
+     except for incidental contracts.
+  c) Liquor liability: Liability arising from the manufacture, distribution,
+     sale, or service of alcoholic beverages.
+  d) Workers' compensation: Any obligation under workers' compensation,
+     disability benefits, or similar laws.
+  e) Pollution: Bodily injury or property damage arising from the actual,
+     alleged, or threatened discharge of pollutants.
+  f) Aircraft/watercraft: Liability arising from the ownership or use of
+     aircraft or watercraft.
+  g) War and terrorism: Loss arising directly or indirectly from war,
+     invasion, or acts of terrorism.
+  h) Professional services: Liability arising from the rendering of or
+     failure to render professional advice or services.
+  i) Intentional acts: Damage caused by deliberate or willful misconduct.
+
+SECTION IV — CONDITIONS
+1. Occurrence Basis: Coverage applies to occurrences during the policy period,
+   regardless of when the claim is made.
+2. Reporting Requirement: All claims must be reported to the insurer within
+   30 days of the incident or discovery.
+3. Cooperation Clause: The insured must cooperate fully in the investigation,
+   defense, or settlement of any claim.
+4. Subrogation: The insurer reserves the right to recover payments made under
+   this policy from responsible third parties.
+5. Premium Audit: The final premium is subject to audit at policy expiration
+   based on actual payroll, sales, and other exposure bases.
+6. Cross-Liability: Each insured is treated separately, but the total liability
+   shall not exceed the policy limits.
+
+SECTION V — ENDORSEMENTS
+  ISO CG 20 10 — Additional Insured: Owners, Lessees, or Contractors
+  ISO CG 24 04 — Waiver of Transfer of Rights of Recovery
+  ISO CG 25 03 — Designated Construction Projects Aggregate Limit
+
+PREMIUM SUMMARY
+  Base Premium:        $18,500
+  Terrorism Surcharge: $250
+  Total Annual Premium: $18,750
+
+Underwritten by: National Indemnity Insurance Group
+Agent: Riverside Insurance Agency

@@ -1,0 +1,95 @@
+PERSONAL AUTO INSURANCE POLICY
+Policy Number: PA-2024-55601
+Named Insured: Maria Gonzalez
+Address: 1428 Elm Street, Austin, TX 78701
+Effective Date: June 1, 2025
+Expiry Date: June 1, 2026
+
+COVERED VEHICLES
+  Vehicle 1: 2021 Toyota Camry LE — VIN: 4T1B11HK0MU123456
+  Vehicle 2: 2019 Honda CR-V EX — VIN: 5J6RW1H50KA789012
+
+SECTION I — LIABILITY COVERAGES
+
+Bodily Injury Liability (per person / per accident): $100,000 / $300,000
+  Covers bodily injury to others when you are legally responsible.
+
+Property Damage Liability (per accident): $100,000
+  Covers damage to others' property when you are legally responsible.
+
+SECTION II — MEDICAL PAYMENTS
+Medical Payments (per person): $5,000
+  Covers reasonable medical expenses for you and your passengers,
+  regardless of fault.
+
+SECTION III — UNINSURED/UNDERINSURED MOTORIST
+  UM Bodily Injury (per person / per accident): $100,000 / $300,000
+  UIM Bodily Injury (per person / per accident): $100,000 / $300,000
+  UM Property Damage: $25,000 (deductible: $250)
+
+SECTION IV — COMPREHENSIVE AND COLLISION
+  Vehicle 1 — 2021 Toyota Camry:
+    Comprehensive Deductible: $500
+    Collision Deductible:     $1,000
+    Agreed Value:             $24,500
+
+  Vehicle 2 — 2019 Honda CR-V:
+    Comprehensive Deductible: $500
+    Collision Deductible:     $1,000
+    Agreed Value:             $29,800
+
+  Comprehensive covers: theft, vandalism, weather events (hail, flood,
+  wind), fire, animal collision, and glass breakage.
+  Collision covers: damage from collision with another vehicle or object.
+
+SECTION V — OPTIONAL COVERAGES
+  Rental Reimbursement: $40/day, 30 days maximum, per occurrence
+  Roadside Assistance: Towing up to 50 miles, lockout service, flat tire,
+    fuel delivery
+  Gap Coverage: Vehicle 1 only — covers the difference between ACV and
+    loan balance in the event of a total loss
+
+SECTION VI — EXCLUSIONS
+  a) Commercial use: Vehicles used for hire (rideshare, taxi, delivery).
+  b) Racing: Damage sustained while participating in racing events.
+  c) Intentional acts: Damage caused deliberately by the insured.
+  d) Regular use by a non-listed driver: Coverage may be denied for
+     claims arising from unlisted resident drivers.
+  e) Mechanical breakdown: Wear and tear, mechanical failure.
+  f) Business vehicles: Pickup trucks or vans used primarily for business.
+  g) Nuclear hazard: Any loss caused directly or indirectly by nuclear
+     reaction, radiation, or radioactive contamination.
+
+SECTION VII — CONDITIONS
+1. Premium Payment: Semi-annual premiums are due on June 1 and December 1.
+   A 10-day grace period applies. Late payment may result in cancellation.
+2. Accident Reporting: Accidents must be reported promptly to the insurer
+   and to local law enforcement when required.
+3. Cooperation: The insured must cooperate in investigation and legal
+   proceedings related to any claim.
+4. Fraud: Any material misrepresentation will void this policy.
+5. Cancellation: Insurer may cancel for non-payment (10 days notice) or
+   material misrepresentation (30 days notice).
+
+RATING FACTORS
+  Primary Driver: Maria Gonzalez
+    Age: 34 | License: 15 years | At-fault accidents (3 yr): 0
+    Violations (3 yr): 1 minor speeding ticket
+  Garaging Address: Austin, TX 78701
+  Annual Mileage: 12,000 (Vehicle 1), 8,000 (Vehicle 2)
+  Credit-based Insurance Score: Excellent
+
+DISCOUNTS APPLIED
+  Multi-Vehicle Discount:       12%
+  Claims-Free (3 years):        7%
+  Defensive Driving Course:     3%
+  Electronic Policy Discount:   2%
+
+PREMIUM SUMMARY
+  Vehicle 1 Semi-Annual Premium: $468
+  Vehicle 2 Semi-Annual Premium: $382
+  Total Semi-Annual Premium:     $850
+  Total Annual Premium:          $1,700
+
+Underwritten by: Lone Star General Insurance
+Agent: Austin Metropolitan Insurance Agency
