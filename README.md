@@ -42,10 +42,10 @@ LLM-driven orchestration.  The core features include:
 ```text
 User: I uploaded a tele-interview note. Extract meds, update the DB, then score the applicant and explain why.
 ```
-1. Supervisor chooses `x1_extract` on the new document.
-2. It then opts for `x5_write_plan` and returns a write plan with token.
-3. After user confirms, `x5_write_commit` executes the writes.
-4. Supervisor then calls `x2_score` for risk scoring.
+1. Supervisor chooses `skill_extraction` on the new document.
+2. It then opts for `skill_db_write_plan` and returns a write plan with token.
+3. After user confirms, `skill_db_write_commit` executes the writes.
+4. Supervisor then calls `skill_risk_model` for risk scoring.
 5. Finally `synthesize` produces a comprehensive summary.
 
 Logs store each `next_tool` decision with timestamps proving the LLM
