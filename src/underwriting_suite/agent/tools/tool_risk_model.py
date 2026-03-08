@@ -1,4 +1,4 @@
-"""X2 – ML Risk Scoring Agent.
+"""tool_risk_model – ML Risk Scoring Tool.
 
 Computes risk score with confidence, feature rationale, and similar-case
 retrieval for underwriter review.
@@ -254,7 +254,7 @@ def _classify(score: float) -> str:
 #  Public entry point
 # ═══════════════════════════════════════════════
 
-async def skill_risk_model(input_data: dict[str, Any]) -> dict[str, Any>:
+async def score_risk(input_data: dict[str, Any]) -> dict[str, Any]:
     """Compute risk score for an applicant.
 
     Pipeline:

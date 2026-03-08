@@ -1,4 +1,4 @@
-"""X3 – Restricted Web Research Agent.
+"""tool_web_research – Restricted Web Research Tool.
 
 Performs web research limited to allowlisted underwriting-relevant domains.
 
@@ -200,7 +200,7 @@ RULES:
 """
 
 
-async def skill_web_research(input_data: dict[str, Any]) -> dict[str, Any>:
+async def research_web(input_data: dict[str, Any]) -> dict[str, Any]:
     """Perform restricted web research on underwriting-relevant topics.
 
     Pipeline:

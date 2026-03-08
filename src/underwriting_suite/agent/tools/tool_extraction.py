@@ -1,4 +1,4 @@
-"""skill_extraction – Medical / Underwriting Entity Extraction Skill.
+"""tool_extraction – Medical / Underwriting Entity Extraction Tool.
 
 Ingests APS, meds, labs, vitals, tele-interview, paramedics, application forms
 and extracts structured entities with evidence links.
@@ -270,7 +270,7 @@ def _detect_conflicts(entities: list[ExtractionEntity]) -> list[ExtractionConfli
 #  Public entry point
 # ═══════════════════════════════════════════════
 
-async def skill_extraction(input_data: dict[str, Any]) -> dict[str, Any>:
+async def extract_entities(input_data: dict[str, Any]) -> dict[str, Any]:
     """Run entity extraction on documents or raw text.
 
     Pipeline:

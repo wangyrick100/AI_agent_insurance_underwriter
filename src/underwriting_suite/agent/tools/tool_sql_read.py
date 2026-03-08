@@ -1,4 +1,4 @@
-"""X4 – Schema-Aware Text-to-SQL Read Agent.
+"""tool_sql_read – Schema-Aware Text-to-SQL Read Tool.
 
 Converts natural-language questions into SELECT-only SQL queries
 and executes them against the underwriting database.
@@ -183,7 +183,7 @@ def _enforce_limit(sql: str, max_rows: int) -> str:
 #  Public entry point
 # ═══════════════════════════════════════════════
 
-async def skill_sql_read(input_data: dict[str, Any]) -> dict[str, Any>:
+async def read_sql(input_data: dict[str, Any]) -> dict[str, Any]:
     """Convert a natural-language question to SQL and execute (read-only).
 
     Pipeline:

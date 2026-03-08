@@ -1,4 +1,4 @@
-"""X6 – Advanced RAG Q&A with Citations over Ingested Documents.
+"""tool_rag – Advanced RAG Q&A with Citations over Ingested Documents.
 
 Uses Azure AI Search vector index for retrieval and Azure OpenAI
 for generation with source citations.
@@ -340,7 +340,7 @@ async def _answer_sub_question(
 #  Main RAG entry point
 # ═══════════════════════════════════════════════
 
-async def skill_rag(input_data: dict[str, Any]) -> dict[str, Any>:
+async def query_rag(input_data: dict[str, Any]) -> dict[str, Any]:
     """Perform advanced RAG Q&A over ingested documents with citations.
 
     Pipeline:

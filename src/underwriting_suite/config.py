@@ -84,7 +84,7 @@ class Settings(BaseSettings):
     )
     extraction_max_chunks: int = Field(
         default=20, ge=1, le=100,
-        description="Max document chunks sent to skill_extraction per call",
+        description="Max document chunks sent to extract_entities per call",
     )
     extraction_chunk_char_limit: int = Field(
         default=6000, ge=500, le=16000,
@@ -92,7 +92,7 @@ class Settings(BaseSettings):
     )
     sql_max_result_rows: int = Field(
         default=500, ge=10, le=5000,
-        description="Hard cap on rows returned by skill_sql_read",
+        description="Hard cap on rows returned by read_sql",
     )
     rag_rerank_top_n: int = Field(
         default=5, ge=1, le=20,

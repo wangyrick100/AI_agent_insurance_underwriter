@@ -1,4 +1,4 @@
-"""Tool registry – exposes all X-agents as callable tools to the Supervisor.
+"""Tool registry – exposes all tools as callable tools to the Supervisor.
 
 Each tool has:
   - a stable async callable
@@ -18,12 +18,12 @@ from dataclasses import dataclass, field
 from enum import Enum
 from typing import Any, Callable, Coroutine
 
-from underwriting_suite.agent.skills.skill_extraction import skill_extraction
-from underwriting_suite.agent.skills.skill_risk_model import skill_risk_model
-from underwriting_suite.agent.skills.skill_web_research import skill_web_research
-from underwriting_suite.agent.skills.skill_sql_read import skill_sql_read
-from underwriting_suite.agent.skills.skill_db_write import skill_db_write_commit, skill_db_write_plan
-from underwriting_suite.agent.skills.skill_rag import skill_rag
+from underwriting_suite.agent.tools.tool_extraction import extract_entities
+from underwriting_suite.agent.tools.tool_risk_model import score_risk
+from underwriting_suite.agent.tools.tool_web_research import research_web
+from underwriting_suite.agent.tools.tool_sql_read import read_sql
+from underwriting_suite.agent.tools.tool_db_write import commit_db_write, plan_db_write
+from underwriting_suite.agent.tools.tool_rag import query_rag
 
 logger = logging.getLogger(__name__)
 
@@ -112,8 +112,8 @@ class ToolHealth:
 # ═══════════════════════════════════════════════
 
 _TOOL_REGISTRY: dict[str, dict[str, Any]] = {
-    "skill_extraction": {
-        "fn": skill_extraction,
+    "extract_entities": {
+        "fn": extract_entities,
         "version": "2.0.0",
         "category": ToolCategory.extraction,
         "cost_tier": CostTier.high,
@@ -143,8 +143,8 @@ _TOOL_REGISTRY: dict[str, dict[str, Any]] = {
         },
         "health": ToolHealth(),
     },
-    "skill_risk_model": {
-        "fn": skill_risk_model,
+    "score_risk": {
+        "fn": score_risk,
         "version": "2.0.0",
         "category": ToolCategory.scoring,
         "cost_tier": CostTier.medium,
@@ -174,8 +174,8 @@ _TOOL_REGISTRY: dict[str, dict[str, Any]] = {
         },
         "health": ToolHealth(),
     },
-    "skill_web_research": {
-        "fn": skill_web_research,
+    "research_web": {
+        "fn": research_web,
         "version": "2.0.0",
         "category": ToolCategory.research,
         "cost_tier": CostTier.medium,
@@ -196,8 +196,8 @@ _TOOL_REGISTRY: dict[str, dict[str, Any]] = {
         },
         "health": ToolHealth(),
     },
-    "skill_sql_read": {
-        "fn": skill_sql_read,
+    "read_sql": {
+        "fn": read_sql,
         "version": "2.0.0",
         "category": ToolCategory.database,
         "cost_tier": CostTier.medium,
@@ -219,15 +219,15 @@ _TOOL_REGISTRY: dict[str, dict[str, Any]] = {
         },
         "health": ToolHealth(),
     },
-    "skill_db_write_plan": {
-        "fn": x5_write_plan,
+    "plan_db_write": {
+        "fn": plan_db_write,
         "version": "2.0.0",
         "category": ToolCategory.database,
         "cost_tier": CostTier.medium,
         "description": (
             "Generate a safe write plan (INSERT/UPDATE SQL) from extracted entities. "
             "Returns a plan with confirmation token, rollback statements, risk level, "
-            "and validation checks. Does NOT execute until confirmed via skill_db_write_commit."
+            "and validation checks. Does NOT execute until confirmed via commit_db_write."
         ),
         "input_schema": {
             "type": "object",
@@ -240,8 +240,8 @@ _TOOL_REGISTRY: dict[str, dict[str, Any]] = {
         },
         "health": ToolHealth(),
     },
-    "skill_db_write_commit": {
-        "fn": x5_write_commit,
+    "commit_db_write": {
+        "fn": commit_db_write,
         "version": "2.0.0",
         "category": ToolCategory.database,
         "cost_tier": CostTier.low,
@@ -261,8 +261,8 @@ _TOOL_REGISTRY: dict[str, dict[str, Any]] = {
         },
         "health": ToolHealth(),
     },
-    "skill_rag": {
-        "fn": x6_rag,
+    "query_rag": {
+        "fn": query_rag,
         "version": "2.0.0",
         "category": ToolCategory.retrieval,
         "cost_tier": CostTier.high,

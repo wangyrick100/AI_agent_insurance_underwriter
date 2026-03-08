@@ -1,4 +1,4 @@
-"""X5 – Safe Database Write Agent (Plan + Confirm + Commit).
+"""tool_db_write – Safe Database Write Tool (Plan + Confirm + Commit).
 
 Generates a write plan from extracted entities, requires explicit
 confirmation token before committing any changes.
@@ -149,7 +149,7 @@ def _validate_plan(sql_statements: list[str], schema_text: str) -> list[str]:
 #  Write plan generation
 # ═══════════════════════════════════════════════
 
-async def skill_db_write_plan(input_data: dict[str, Any]) -> dict[str, Any>:
+async def plan_db_write(input_data: dict[str, Any]) -> dict[str, Any]:
     """Generate a write plan from extraction results.
 
     Pipeline:
@@ -249,7 +249,7 @@ async def skill_db_write_plan(input_data: dict[str, Any]) -> dict[str, Any>:
 #  Write plan commit
 # ═══════════════════════════════════════════════
 
-async def skill_db_write_commit(input_data: dict[str, Any]) -> dict[str, Any>:
+async def commit_db_write(input_data: dict[str, Any]) -> dict[str, Any]:
     """Commit a previously created write plan after user confirmation.
 
     Pre-commit checks:

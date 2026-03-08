@@ -1,6 +1,6 @@
 """Pydantic schemas for the Supervisor ReAct loop & tool I/O contracts.
 
-Every agent (X1–X6) has a strict input / output schema so that:
+Every tool (extract_entities through query_rag) has a strict input / output schema so that:
   • the Supervisor can reason about tool capabilities at planning time;
   • callers get predictable, validated payloads;
   • audit and traceability fields travel with every result.
@@ -21,13 +21,13 @@ from pydantic import BaseModel, Field
 
 
 class ToolName(str, Enum):
-    skill_extraction = "skill_extraction"
-    skill_risk_model = "skill_risk_model"
-    skill_web_research = "skill_web_research"
-    skill_sql_read = "skill_sql_read"
-    skill_db_write_plan = "skill_db_write_plan"
-    skill_db_write_commit = "skill_db_write_commit"
-    skill_rag = "skill_rag"
+    extract_entities = "extract_entities"
+    score_risk = "score_risk"
+    research_web = "research_web"
+    read_sql = "read_sql"
+    plan_db_write = "plan_db_write"
+    commit_db_write = "commit_db_write"
+    query_rag = "query_rag"
     synthesize = "synthesize"
     ask_user = "ask_user"
 
