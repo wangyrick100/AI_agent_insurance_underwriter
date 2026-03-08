@@ -12,7 +12,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from underwriting_suite.agent.schemas import ApplicantSummary
-from underwriting_suite.agent.tools.x5_db_write import get_plans_for_applicant
+from underwriting_suite.agent.skills.skill_db_write import get_plans_for_applicant
 from underwriting_suite.db.database import get_session
 from underwriting_suite.models.applicant import Applicant
 from underwriting_suite.models.document import Document

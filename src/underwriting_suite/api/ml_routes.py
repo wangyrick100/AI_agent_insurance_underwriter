@@ -7,7 +7,7 @@ from typing import Any, Optional
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from underwriting_suite.agent.tools.x2_risk_model import x2_score
+from underwriting_suite.agent.skills.skill_risk_model import skill_risk_model
 
 router = APIRouter(prefix="/v1/ml", tags=["ml"])
 
@@ -20,5 +20,5 @@ class ScoreRequest(BaseModel):
 @router.post("/score")
 async def run_score(req: ScoreRequest):
     """Explicitly trigger X2 risk scoring."""
-    result = await x2_score(req.model_dump())
+    result = await skill_risk_model(req.model_dump())
     return result
